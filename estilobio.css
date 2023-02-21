@@ -1,0 +1,33 @@
+body {
+    color: gainsboro;
+    background-image: url(Imagenes/Imagen3.png);
+    font-family: serif;
+    font-size: x-large;
+    display: flex;
+    flex-direction: column;
+}
+
+#info {color: gold;
+    font-size: xx-large;
+    font-family: fantasy;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+
+}
+
+nav {
+    display: flex;
+    flex-direction: row-reverse;
+    padding-top: 0%;
+    padding-left: 0%;
+    padding-right: 0%;
+    padding-bottom: 0%;
+}
+
+@media (max-width:400px) {
+    nav {
+        display: flex;
+        flex-direction: column;
+    }
+}

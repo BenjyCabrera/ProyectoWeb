@@ -1,0 +1,37 @@
+body {
+    background-image: url(Imagenes/Imagen3.png);
+}
+
+
+ul {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    list-style-type: none;
+    font-size: xx-large;
+    list-style: none;
+    gap: 20px;
+}
+
+div {
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+
+
+
+nav {
+    display: flex;
+    flex-direction: row-reverse;
+
+}
+
+#foto1 {
+    display: flex;
+}
+
+@media (max-width:400px) {
+    nav {
+        display: flex;
+        flex-direction: column;
+    }
+}

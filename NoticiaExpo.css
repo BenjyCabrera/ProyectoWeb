@@ -1,0 +1,21 @@
+ h1 {
+     font: small-caps 200% serif;
+ }
+
+ h2 {
+     font: oblique bold 120% cursive;
+ }
+
+ article {
+     font: small-caps 100% serif;
+ }
+
+ body {
+     margin: 20px;
+     line-height: 1.5em;
+     font-size: 0.875em;
+     width: 300px;
+     border: 15px solid green;
+     padding: 50px;
+     margin: 20px;
+ }
